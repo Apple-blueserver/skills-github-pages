@@ -1,0 +1,60 @@
+theme: minima
+
+# Title ของเว็บไซต์
+title: "ABPI"
+
+# คำอธิบายเว็บไซต์
+description: "Hello"
+
+# URL ของเว็บไซต์
+url: "Nope"
+
+# ฐานของ URL ถ้าโปรเจคอยู่ใน subdirectory
+baseurl: ""
+
+# กำหนดให้ Jekyll ใช้ภาษาไทย
+locale: "th_TH"
+
+# ระบุเวลาในรูปแบบที่ต้องการ
+timezone: "Asia/Bangkok"
+
+# กำหนดให้เว็บไซต์รองรับการใช้ Markdown
+markdown: kramdown
+
+# กำหนดเวลาในรูปแบบ 24 ชั่วโมง
+date_format: "%Y-%m-%d"
+
+# เลือก theme ที่ต้องการ
+theme: "minimal"
+
+# กำหนดให้เว็บไซต์รองรับการแสดงผล RSS
+rss:
+  enabled: true
+  path: "/feed.xml"
+
+# กำหนดไฟล์ที่ใช้เป็นหน้า homepage
+home_page: "index.md"
+
+# กำหนดสไตล์ของ URL (เส้นทาง) ของโพสต์
+permalink: "/:categories/:year/:month/:day/:title/"
+
+# ชุดการตั้งค่าของ Google Analytics หรือเครื่องมือที่คล้ายกัน
+google_analytics: "UA-XXXXXXXX-X"
+
+# ระบุข้อมูลเกี่ยวกับผู้สร้างเว็บไซต์
+author:
+  name: "ชื่อผู้สร้างเว็บไซต์"
+  email: "example@example.com"
+
+# Social Media links
+social:
+  twitter: "https://twitter.com/example"
+  linkedin: "https://www.linkedin.com/in/example"
+  github: "https://github.com/example"
+
+# ตั้งค่าการแสดงผลของหน้า sidebar
+sidebar: true
+
+# กำหนดให้ค้นหาแบบ full text
+search:
+  enabled: true
